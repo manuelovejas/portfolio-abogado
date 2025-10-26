@@ -35,6 +35,7 @@ function App() {
 
   return (
     <div className="App">
+      <div className="animated-background"></div>
       <Header contacto={contacto} />
       <main>
         <About datos={quienSoy} />

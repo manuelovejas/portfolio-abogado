@@ -19,7 +19,11 @@ function About({ datos }) {
                 <h4>Educación</h4>
                 <div className="education-list">
                   {datos.educacion.map((edu, index) => (
-                    <div key={index} className="education-item">
+                    <div 
+                      key={index} 
+                      className="education-item"
+                      style={{ animationDelay: `${index * 0.2}s` }}
+                    >
                       <h5>{edu.titulo}</h5>
                       <p className="institucion">{edu.institucion}</p>
                       <p className="año">{edu.año}</p>

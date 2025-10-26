@@ -71,6 +71,45 @@
   border-left: 4px solid #a8b799;
   border: 1px solid #d9d3c8;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  opacity: 0;
+  transform: translateY(30px) scale(0.95);
+  animation: slideInUp 0.6s ease forwards;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  position: relative;
+  overflow: hidden;
+}
+
+.education-item::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(168, 183, 153, 0.3), transparent);
+  transition: left 0.5s;
+}
+
+.education-item:hover::before {
+  left: 100%;
+}
+
+@keyframes slideInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+.education-item:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 8px 20px rgba(168, 183, 153, 0.3);
+  border-left-color: #91a684;
+  border-color: #a8b799;
+}
+
+.education-item:active {
+  transform: translateY(-4px) scale(1.01);
 }
 
 .education-item h5 {
