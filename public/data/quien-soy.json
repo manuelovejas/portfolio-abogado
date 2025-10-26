@@ -1,0 +1,24 @@
+{
+  "nombre": "Dr.Macarena Wosco",
+  "titulo": "Abogado Especialista en Derecho Civil",
+  "bio": "Soy un profesional del derecho con más de 10 años de experiencia en derecho civil y comercial. Mi enfoque se centra en brindar soluciones legales efectivas y personalizadas para mis clientes.",
+  "educacion": [
+    {
+      "titulo": "Abogado",
+      "institucion": "Universidad Nacional",
+      "año": "2010"
+    },
+    {
+      "titulo": "Especialización en Derecho Civil",
+      "institucion": "Universidad Nacional",
+      "año": "2012"
+    }
+  ],
+  "areas": [
+    "Derecho Civil",
+    "Derecho Comercial",
+    "Contratos",
+    "Propiedad Intelectual"
+  ]
+}
+

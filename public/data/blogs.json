@@ -1,0 +1,29 @@
+{
+  "blogs": [
+    {
+      "id": 1,
+      "titulo": "Nuevas Leyes de Protección al Consumidor en 2024",
+      "fecha": "2024-01-15",
+      "resumen": "Análisis sobre las nuevas regulaciones y cómo afectan a empresas y consumidores.",
+      "imagen": "https://i0.wp.com/aldiaargentina.microjuris.com/wp-content/uploads/2022/07/ABOGADA.jpg?resize=768%2C469&ssl=1",
+      "categoria": "Derecho Comercial"
+    },
+    {
+      "id": 2,
+      "titulo": "Guía Completa sobre Contratos de Alquiler",
+      "fecha": "2024-01-10",
+      "resumen": "Todo lo que necesitas saber sobre contratos de alquiler: derechos y obligaciones de inquilinos y propietarios.",
+      "imagen": "https://www.ambitojuridico.com/sites/default/files/styles/imagen_800x400/public/node/deflt/field_image/1970-01/abogado-derecho-malletebig-1509242116.jpg.webp?itok=jLwvzrKf",
+      "categoria": "Derecho Civil"
+    },
+    {
+      "id": 3,
+      "titulo": "Importancia de la Propiedad Intelectual para Empresas",
+      "fecha": "2024-01-05",
+      "resumen": "Cómo proteger tus creaciones y marcas: una guía práctica para emprendedores.",
+      "imagen": "https://static.vecteezy.com/system/resources/previews/007/359/462/non_2x/young-beautiful-asian-woman-lawyer-who-working-in-the-office-tlaking-on-a-smart-phone-with-client-free-photo.JPG",
+      "categoria": "Propiedad Intelectual"
+    }
+  ]
+}
+

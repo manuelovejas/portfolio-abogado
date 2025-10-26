@@ -1,0 +1,136 @@
+.about-section {
+  padding: 4rem 0;
+  background: linear-gradient(to bottom, #f5f2ed, #ebe6dc);
+}
+
+.about-content {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.about-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  padding-bottom: 2rem;
+  border-bottom: 3px solid #a8b799;
+}
+
+.about-header h2 {
+  font-size: 2.5rem;
+  color: #2c3e50;
+  margin-bottom: 1rem;
+  font-weight: 700;
+}
+
+.about-header h3 {
+  font-size: 2rem;
+  color: #6b7c5d;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.titulo-profesional {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  font-style: italic;
+}
+
+.about-body {
+  line-height: 1.8;
+}
+
+.bio {
+  font-size: 1.1rem;
+  color: #34495e;
+  margin-bottom: 3rem;
+  text-align: justify;
+}
+
+.subsection {
+  margin-bottom: 3rem;
+}
+
+.subsection h4 {
+  font-size: 1.5rem;
+  color: #2c3e50;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #ecf0f1;
+}
+
+.education-list {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.education-item {
+  background-color: #f9f7f3;
+  padding: 1.5rem;
+  border-radius: 8px;
+  border-left: 4px solid #a8b799;
+  border: 1px solid #d9d3c8;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+}
+
+.education-item h5 {
+  font-size: 1.2rem;
+  color: #2c3e50;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.institucion {
+  color: #6b7c5d;
+  font-weight: 500;
+  margin-bottom: 0.3rem;
+}
+
+.año {
+  color: #7f8c8d;
+  font-size: 0.9rem;
+}
+
+.areas-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.area-badge {
+  background: linear-gradient(135deg, #dfd4c4 0%, #c9baa8 100%);
+  color: #4a5043;
+  padding: 0.8rem 1.5rem;
+  border-radius: 25px;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border: 2px solid #a8b799;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.area-badge:hover {
+  transform: translateY(-3px);
+  background: linear-gradient(135deg, #a8b799 0%, #91a684 100%);
+  color: white;
+  box-shadow: 0 4px 12px rgba(168, 183, 153, 0.4);
+}
+
+@media (max-width: 768px) {
+  .about-header h2 {
+    font-size: 2rem;
+  }
+
+  .about-header h3 {
+    font-size: 1.5rem;
+  }
+
+  .bio {
+    font-size: 1rem;
+  }
+
+  .areas-grid {
+    justify-content: center;
+  }
+}
+
