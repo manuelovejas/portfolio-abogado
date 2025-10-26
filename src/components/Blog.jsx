@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Blog.css'
 
 function Blog({ blogs }) {
@@ -28,7 +29,9 @@ function Blog({ blogs }) {
                 </div>
                 <h3 className="blog-title">{blog.titulo}</h3>
                 <p className="blog-resumen">{blog.resumen}</p>
-                <button className="blog-button">Leer más</button>
+                <Link to={`/blog/${blog.id}`} className="blog-button">
+                  Leer más
+                </Link>
               </div>
             </article>
           ))}
