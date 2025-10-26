@@ -5,19 +5,14 @@
   "educacion": [
     {
       "titulo": "Abogado",
-      "institucion": "Universidad Nacional",
-      "año": "2010"
-    },
-    {
-      "titulo": "Especialización en Derecho Civil",
-      "institucion": "Universidad Nacional",
-      "año": "2012"
+      "institucion": "Univerdad Catolica de Argentina",
+      "año": "2019"
     }
   ],
   "areas": [
     "Derecho Civil",
     "Derecho Comercial",
-    "Contratos",
+    "Ciberdefensa",
     "Propiedad Intelectual"
   ]
 }
