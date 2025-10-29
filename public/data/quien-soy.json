@@ -1,19 +1,17 @@
 {
-  "nombre": "Dr.Macarena Wosco",
+  "nombre": "Dra. Macarena Ona del Lago G. Wosco",
   "titulo": "Abogado Especialista en Derecho Civil",
-  "bio": "Soy un profesional del derecho con más de 10 años de experiencia en derecho civil y comercial. Mi enfoque se centra en brindar soluciones legales efectivas y personalizadas para mis clientes.",
-  "educacion": [
-    {
-      "titulo": "Abogado",
-      "institucion": "Univerdad Catolica de Argentina",
-      "año": "2019"
-    }
-  ],
+  "bio": "Soy abogada egresada de la Universidad Católica Argentina (UCA). En el año 2022 cursé un posgrado con doble titulación en Ciberdelitos y Tecnologías Aplicadas en la Universidad Austral Argentina y la Universitat Abat Oliba CEU (Barcelona), además de diversos cursos especializados en Derecho Laboral, Mediación, Amparos de Salud, Sucesiones, Derecho de Familia, Derecho de la Propiedad, entre otros. La política y objetivo de nuestro estudio es trabajar siempre desde una mirada humana y personalizada, acompañando a cada cliente con compromiso, empatía y responsabilidad. Buscamos ejercer y transmitir el derecho de forma cercana y clara para el conocimiento y entendimiento de nuestros clientes y justa y precisa para lograr resultados efectivos. Actualmente estudiante destacada de Abogacía en la Universidad del Museo Social Argentino (UMSA). Mis tareas en el Estudio constan principalmente en la rigurosa procuración de cada expediente activo, recaudación de material documental y mantengo contacto diario y directo con los clientes para aclarar dudas e inquietudes. Cuento con una marcada inclinación y experiencia en las áreas de Derecho Laboral, Familia y  Contencioso Administrativo.",
   "areas": [
-    "Derecho Civil",
-    "Derecho Comercial",
-    "Ciberdefensa",
-    "Propiedad Intelectual"
+    "DERECHO LABORAL",
+    "DERECHO DE FAMILIA",
+    "DERECHO DE DAÑOS ",
+    "ACCIDENTES DE TRÁNSITO",
+    "ENFERMEDADES Y ACCIDENTES LABORALES",
+    "SUCESIONES",
+    "DERECHO CIVIL Y COMERCIAL",
+    "CIBERDELITOS",
+    "AMPAROS DE SALUD"
   ]
 }
 
