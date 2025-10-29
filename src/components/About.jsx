@@ -25,6 +25,8 @@ function About({ datos }) {
           </div>
         )}
 
+        <h3 className="staff-title">Staff</h3>
+
         <div className="abogados-grid">
           {datos.abogados.map((abogado, index) => (
             <div key={index} className="abogado-card">
