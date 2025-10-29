@@ -6,7 +6,7 @@ function Header({ contacto }) {
       <div className="header-content">
         <div className="hero-section">
           <h1>ESTUDIO G. WOSCO</h1>
-          <p className="tagline">La solución a tus problemas legales</p>
+          <p className="tagline"><b>La solución a tus problemas legales</b></p>
         </div>
         
         <div className="contact-info">
