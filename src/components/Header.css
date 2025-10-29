@@ -10,7 +10,7 @@
   content: '';
   position: absolute;
   inset: 0;
-  background: url('https://www.zonaprop.com.ar/blog/wp-content/uploads/2021/05/35197087951_e9682626d8_k-605x400.jpg') center/cover no-repeat;
+  background: url('https://turismo.buenosaires.gob.ar/sites/turismo/files/palacio_de_justicia_tribunals_1200.jpg') center/cover no-repeat;
   filter: saturate(0.9);
   transform: scale(1.02);
 }
@@ -45,6 +45,9 @@
   margin-bottom: 0.5rem;
   color: #ffffff;
   text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  letter-spacing: 0.5px;
 }
 
 .tagline {
