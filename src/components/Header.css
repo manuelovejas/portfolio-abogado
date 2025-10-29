@@ -1,13 +1,37 @@
 .header {
-  background: linear-gradient(135deg, #d4c5b0 0%, #c9b89b 50%, #bea885 100%);
-  color: #3a3a3a;
+  position: relative;
+  background: #c9b89b;
+  color: #ffffff;
   padding: 3rem 0;
+  overflow: hidden;
+}
+
+.header::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: url('/images/header-bg.jpg') center/cover no-repeat;
+  filter: saturate(0.9);
+  transform: scale(1.02);
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 0.35),
+    rgba(0, 0, 0, 0.45)
+  );
 }
 
 .header-content {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  position: relative;
+  z-index: 1;
 }
 
 .hero-section {
@@ -19,12 +43,16 @@
   font-size: 3rem;
   font-weight: 700;
   margin-bottom: 0.5rem;
+  color: #ffffff;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
 }
 
 .tagline {
   font-size: 1.5rem;
-  opacity: 0.9;
+  opacity: 0.95;
   font-weight: 300;
+  color: #f7f7f7;
+  text-shadow: 0 1px 6px rgba(0, 0, 0, 0.35);
 }
 
 .contact-info {
@@ -39,7 +67,7 @@
   display: flex;
   align-items: flex-start;
   gap: 1rem;
-  background-color: rgba(255, 255, 255, 0.6);
+  background-color: rgba(255, 255, 255, 0.85);
   backdrop-filter: blur(10px);
   padding: 1.5rem;
   border-radius: 10px;
