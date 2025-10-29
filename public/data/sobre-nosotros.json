@@ -1,22 +1,21 @@
 {
   "tituloSeccion": "Sobre Nosotros",
+  "areas": [
+    "DERECHO LABORAL",
+    "DERECHO DE FAMILIA",
+    "DERECHO DE DAÑOS",
+    "ACCIDENTES DE TRÁNSITO",
+    "ENFERMEDADES Y ACCIDENTES LABORALES",
+    "SUCESIONES",
+    "DERECHO CIVIL Y COMERCIAL",
+    "CIBERDELITOS",
+    "AMPAROS DE SALUD"
+  ],
   "abogados": [
     {
       "nombre": "Dra. Macarena Ona del Lago G. Wosco",
       "titulo": "Abogada",
-      "bio": "Soy abogada egresada de la Universidad Católica Argentina (UCA).\n\nEn el año 2022 cursé un posgrado con doble titulación en Ciberdelitos y Tecnologías Aplicadas en la Universidad Austral Argentina y la Universitat Abat Oliba CEU (Barcelona), además de diversos cursos especializados en Derecho Laboral, Mediación, Amparos de Salud, Sucesiones, Derecho de Familia, Derecho de la Propiedad, entre otros.\n\nLa política y objetivo de nuestro estudio es trabajar siempre desde una mirada humana y personalizada, acompañando a cada cliente con compromiso, empatía y responsabilidad",
-
-      "areas": [
-        "DERECHO LABORAL",
-        "DERECHO DE FAMILIA",
-        "DERECHO DE DAÑOS",
-        "ACCIDENTES DE TRÁNSITO",
-        "ENFERMEDADES Y ACCIDENTES LABORALES",
-        "SUCESIONES",
-        "DERECHO CIVIL Y COMERCIAL",
-        "CIBERDELITOS",
-        "AMPAROS DE SALUD"
-      ]
+      "bio": "Soy abogada egresada de la Universidad Católica Argentina (UCA).\n\nEn el año 2022 cursé un posgrado con doble titulación en Ciberdelitos y Tecnologías Aplicadas en la Universidad Austral Argentina y la Universitat Abat Oliba CEU (Barcelona), además de diversos cursos especializados en Derecho Laboral, Mediación, Amparos de Salud, Sucesiones, Derecho de Familia, Derecho de la Propiedad, entre otros.\n\nLa política y objetivo de nuestro estudio es trabajar siempre desde una mirada humana y personalizada, acompañando a cada cliente con compromiso, empatía y responsabilidad"
     },
     {
       "nombre": "Micaela Andrada",

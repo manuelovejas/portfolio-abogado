@@ -9,8 +9,21 @@ function About({ datos }) {
       <div className="container">
         <div className="about-header">
           <h2>{datos.tituloSeccion}</h2>
-          <p className="seccion-descripcion">{datos.descripcion}</p>
+          {datos.descripcion && (
+            <p className="seccion-descripcion">{datos.descripcion}</p>
+          )}
         </div>
+
+        {datos.areas && datos.areas.length > 0 && (
+          <div className="subsection">
+            <h4>Áreas de Especialización</h4>
+            <div className="areas-grid">
+              {datos.areas.map((area, idx) => (
+                <span key={idx} className="area-badge">{area}</span>
+              ))}
+            </div>
+          </div>
+        )}
 
         <div className="abogados-grid">
           {datos.abogados.map((abogado, index) => (
@@ -41,19 +54,6 @@ function About({ datos }) {
                           <p className="institucion">{edu.institucion}</p>
                           <p className="año">{edu.año}</p>
                         </div>
-                      ))}
-                    </div>
-                  </div>
-                )}
-
-                {abogado.areas && abogado.areas.length > 0 && (
-                  <div className="subsection">
-                    <h4>Áreas de Especialización</h4>
-                    <div className="areas-grid">
-                      {abogado.areas.map((area, idx) => (
-                        <span key={idx} className="area-badge">
-                          {area}
-                        </span>
                       ))}
                     </div>
                   </div>
