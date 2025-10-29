@@ -5,8 +5,8 @@ function Header({ contacto }) {
     <header className="header">
       <div className="header-content">
         <div className="hero-section">
-          <h1>Macarena G. Wosco</h1>
-          <p className="tagline">Asesoramiento legal de confianza</p>
+          <h1>ESTUDIO G. WOSCO</h1>
+          <p className="tagline">La solución a tus problemas legales</p>
         </div>
         
         <div className="contact-info">
