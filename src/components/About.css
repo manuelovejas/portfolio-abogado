@@ -46,6 +46,10 @@
   text-align: justify;
 }
 
+.bio p {
+  margin-bottom: 1rem;
+}
+
 .subsection {
   margin-bottom: 3rem;
 }

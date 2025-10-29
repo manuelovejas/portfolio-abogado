@@ -1,4 +1,7 @@
 import './About.css'
+import ReactMarkdown from 'react-markdown'
+import remarkGfm from 'remark-gfm'
+import remarkBreaks from 'remark-breaks'
 
 function About({ datos }) {
   return (
@@ -12,7 +15,11 @@ function About({ datos }) {
           </div>
 
           <div className="about-body">
-            <p className="bio">{datos.bio}</p>
+            <div className="bio">
+              <ReactMarkdown remarkPlugins={[remarkGfm, remarkBreaks]}>
+                {datos.bio}
+              </ReactMarkdown>
+            </div>
 
             {datos.educacion && datos.educacion.length > 0 && (
               <div className="subsection">
