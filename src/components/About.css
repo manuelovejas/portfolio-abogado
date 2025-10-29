@@ -22,9 +22,55 @@
   font-weight: 700;
 }
 
-.about-header h3 {
+.seccion-descripcion {
+  font-size: 1.2rem;
+  color: #7f8c8d;
+  font-style: italic;
+  margin-top: 0.5rem;
+}
+
+.staff-title {
   font-size: 2rem;
-  color: #6b7c5d;
+  color: #2c3e50;
+  margin: 3rem 0 2rem 0;
+  font-weight: 600;
+  text-align: center;
+  border-bottom: 2px solid #e8e5e0;
+  padding-bottom: 1rem;
+}
+
+.abogados-grid {
+  display: grid;
+  gap: 3rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.abogado-card {
+  background: white;
+  border-radius: 16px;
+  padding: 2.5rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  border: 2px solid #e8e5e0;
+  transition: all 0.3s ease;
+}
+
+.abogado-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 24px rgba(168, 183, 153, 0.2);
+  border-color: #a8b799;
+}
+
+.abogado-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 2px solid #e8e5e0;
+}
+
+.abogado-header h3 {
+  font-size: 1.8rem;
+  color: #2c3e50;
   margin-bottom: 0.5rem;
   font-weight: 600;
 }
@@ -46,16 +92,22 @@
   text-align: justify;
 }
 
+.bio p {
+  margin-bottom: 1rem;
+}
+
 .subsection {
   margin-bottom: 3rem;
 }
 
 .subsection h4 {
-  font-size: 1.5rem;
+  font-size: 2rem;
   color: #2c3e50;
-  margin-bottom: 1.5rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #ecf0f1;
+  margin: 3rem 0 2rem 0;
+  font-weight: 600;
+  text-align: center;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid #e8e5e0;
 }
 
 .education-list {
@@ -134,6 +186,7 @@
   display: flex;
   flex-wrap: wrap;
   gap: 1rem;
+  justify-content: center;
 }
 
 .area-badge {
@@ -155,13 +208,21 @@
   box-shadow: 0 4px 12px rgba(168, 183, 153, 0.4);
 }
 
+.abogado-body {
+  line-height: 1.8;
+}
+
 @media (max-width: 768px) {
   .about-header h2 {
     font-size: 2rem;
   }
 
-  .about-header h3 {
-    font-size: 1.5rem;
+  .abogado-card {
+    padding: 1.5rem;
+  }
+
+  .abogado-header h3 {
+    font-size: 1.4rem;
   }
 
   .bio {
@@ -170,6 +231,20 @@
 
   .areas-grid {
     justify-content: center;
+  }
+
+  .seccion-descripcion {
+    font-size: 1rem;
+  }
+
+  .staff-title {
+    font-size: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
+  }
+
+  .subsection h4 {
+    font-size: 1.5rem;
+    margin: 2rem 0 1.5rem 0;
   }
 }
 

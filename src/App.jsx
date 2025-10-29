@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
 import Header from './components/Header'
 import About from './components/About'
-import Blog from './components/Blog'
 import './App.css'
 
 function App() {
   const [contacto, setContacto] = useState(null)
-  const [quienSoy, setQuienSoy] = useState(null)
-  const [blogs, setBlogs] = useState(null)
+  const [sobreNosotros, setSobreNosotros] = useState(null)
 
   useEffect(() => {
     // Cargar datos de contacto
@@ -16,20 +14,14 @@ function App() {
       .then(data => setContacto(data))
       .catch(err => console.error('Error cargando contacto:', err))
 
-    // Cargar datos de quien soy
-    fetch('/data/quien-soy.json')
+    // Cargar datos de sobre nosotros
+    fetch('/data/sobre-nosotros.json')
       .then(res => res.json())
-      .then(data => setQuienSoy(data))
-      .catch(err => console.error('Error cargando quien-soy:', err))
-
-    // Cargar blogs
-    fetch('/data/blogs.json')
-      .then(res => res.json())
-      .then(data => setBlogs(data.blogs))
-      .catch(err => console.error('Error cargando blogs:', err))
+      .then(data => setSobreNosotros(data))
+      .catch(err => console.error('Error cargando sobre-nosotros:', err))
   }, [])
 
-  if (!contacto || !quienSoy || !blogs) {
+  if (!contacto || !sobreNosotros) {
     return <div className="loading">Cargando...</div>
   }
 
@@ -38,12 +30,11 @@ function App() {
       <div className="animated-background"></div>
       <Header contacto={contacto} />
       <main>
-        <About datos={quienSoy} />
-        <Blog blogs={blogs} />
+        <About datos={sobreNosotros} />
       </main>
       <footer className="footer">
         <div className="container">
-          <p>&copy; {new Date().getFullYear()} {quienSoy.nombre}. Todos los derechos reservados.</p>
+          <p>&copy; {new Date().getFullYear()} Estudio G. Wosco. Todos los derechos reservados.</p>
         </div>
       </footer>
     </div>

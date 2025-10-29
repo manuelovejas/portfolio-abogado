@@ -1,0 +1,27 @@
+{
+  "tituloSeccion": "Sobre Nosotros",
+  "areas": [
+    "DERECHO LABORAL",
+    "DERECHO DE FAMILIA",
+    "DERECHO DE DAÑOS",
+    "ACCIDENTES DE TRÁNSITO",
+    "ENFERMEDADES Y ACCIDENTES LABORALES",
+    "SUCESIONES",
+    "DERECHO CIVIL Y COMERCIAL",
+    "CIBERDELITOS",
+    "AMPAROS DE SALUD"
+  ],
+  "abogados": [
+    {
+      "nombre": "Dra. Macarena Ona del Lago G. Wosco",
+      "titulo": "Abogada",
+      "bio": "Soy abogada egresada de la Universidad Católica Argentina (UCA).\n\nEn el año 2022 cursé un posgrado con doble titulación en Ciberdelitos y Tecnologías Aplicadas en la Universidad Austral Argentina y la Universitat Abat Oliba CEU (Barcelona), además de diversos cursos especializados en Derecho Laboral, Mediación, Amparos de Salud, Sucesiones, Derecho de Familia, Derecho de la Propiedad, entre otros.\n\nLa política y objetivo de nuestro estudio es trabajar siempre desde una mirada humana y personalizada, acompañando a cada cliente con compromiso, empatía y responsabilidad"
+    },
+    {
+      "nombre": "Micaela Andrada",
+      "titulo": "Procuracion",
+      "bio": "Actualmente estudiante destacada de Abogacía en la Universidad del Museo Social Argentino (UMSA).\n\nMis tareas en el Estudio constan principalmente en la rigurosa procuración de cada expediente activo, recaudación de material documental y mantengo contacto diario y directo con los clientes para aclarar dudas e inquietudes. Cuento con una marcada inclinación y experiencia en las áreas de Derecho Laboral, Familia y Contencioso Administrativo."
+    }
+  ]
+}
+
